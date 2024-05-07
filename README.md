@@ -5,10 +5,10 @@ Intro to program:
 Project to build an automated webapplication software to store test results and then give a rough grading that a climber could potentially climb. To also give a climbing chat of different skills that represent climbers skills or weaknesses such as flexability.
 
 Database Plan. rc_data
--users stores user id, email, hash, name, age, weight, test scores, climbing rating
--results_rating results.db id, user_id, test 1, test 2, test 3, test 4, timestamp
--results_wheel
--rating_levels which has unique id, score, ratings, levels (Beginer - Ellit)
+- users stores user id, email, hash, name, age, weight, test scores, climbing rating
+- results_rating results.db id, user_id, test 1, test 2, test 3, test 4, timestamp
+- results_wheel
+- rating_levels which has unique id, score, ratings, levels (Beginer - Ellit)
 
 Function for the Web application.
 Main '/'- When logged in takes the user to the main screen where they can see their results in graphs or statments and eventually inbed youtube vids to help.
